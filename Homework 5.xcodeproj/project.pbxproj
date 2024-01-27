@@ -12,6 +12,9 @@
 		83F8AF812B65192E004C6BD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8AF802B65192E004C6BD0 /* ViewController.swift */; };
 		83F8AF862B651931004C6BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F8AF852B651931004C6BD0 /* Assets.xcassets */; };
 		83F8AF892B651931004C6BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F8AF872B651931004C6BD0 /* LaunchScreen.storyboard */; };
+		83F8AF912B65599C004C6BD0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8AF902B65599C004C6BD0 /* DetailViewController.swift */; };
+		83F8AF962B656D91004C6BD0 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8AF952B656D91004C6BD0 /* UserTableViewCell.swift */; };
+		83F8AF992B656E37004C6BD0 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8AF982B656E37004C6BD0 /* UserCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		83F8AF852B651931004C6BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F8AF882B651931004C6BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F8AF8A2B651931004C6BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F8AF902B65599C004C6BD0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		83F8AF952B656D91004C6BD0 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		83F8AF982B656E37004C6BD0 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		83F8AF7B2B65192E004C6BD0 /* Homework 5 */ = {
 			isa = PBXGroup;
 			children = (
-				83F8AF7C2B65192E004C6BD0 /* AppDelegate.swift */,
-				83F8AF7E2B65192E004C6BD0 /* SceneDelegate.swift */,
-				83F8AF802B65192E004C6BD0 /* ViewController.swift */,
+				83F8AF922B6567E3004C6BD0 /* Delegates */,
+				83F8AF932B6568E5004C6BD0 /* Views */,
+				83F8AF942B65691C004C6BD0 /* Cells */,
+				83F8AF972B656DD0004C6BD0 /* Models */,
 				83F8AF852B651931004C6BD0 /* Assets.xcassets */,
 				83F8AF872B651931004C6BD0 /* LaunchScreen.storyboard */,
 				83F8AF8A2B651931004C6BD0 /* Info.plist */,
 			);
 			path = "Homework 5";
+			sourceTree = "<group>";
+		};
+		83F8AF922B6567E3004C6BD0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				83F8AF7C2B65192E004C6BD0 /* AppDelegate.swift */,
+				83F8AF7E2B65192E004C6BD0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		83F8AF932B6568E5004C6BD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83F8AF802B65192E004C6BD0 /* ViewController.swift */,
+				83F8AF902B65599C004C6BD0 /* DetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83F8AF942B65691C004C6BD0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				83F8AF952B656D91004C6BD0 /* UserTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		83F8AF972B656DD0004C6BD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83F8AF982B656E37004C6BD0 /* UserCard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F8AF912B65599C004C6BD0 /* DetailViewController.swift in Sources */,
 				83F8AF812B65192E004C6BD0 /* ViewController.swift in Sources */,
 				83F8AF7D2B65192E004C6BD0 /* AppDelegate.swift in Sources */,
 				83F8AF7F2B65192E004C6BD0 /* SceneDelegate.swift in Sources */,
+				83F8AF992B656E37004C6BD0 /* UserCard.swift in Sources */,
+				83F8AF962B656D91004C6BD0 /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
